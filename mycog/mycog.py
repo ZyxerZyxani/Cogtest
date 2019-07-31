@@ -17,7 +17,7 @@ class VoteCog(commands.Cog):
     @client.event
     async def on_ready():
         msg="Let's get VOTING!\nYou can only vote once and you can't change your vote. Send a message (a pm) to me that says\n!vote x\nwhere x is what you vote."
-        await client.send_message(discord.Object(id=283322690029355008), msg)
+        await client.send_message(discord.Object(id='Insert channel ID for bot to print syntax to and how to use'), msg)
 
     @commands.command(pass_context=True)
     async def ja(ctx):
